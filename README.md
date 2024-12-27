@@ -1,16 +1,16 @@
-## Hi there 👋
+from datetime import date
 
-<!--
-**jinyang628/jinyang628** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+from app.models import Engineer
 
-Here are some ideas to get you started:
+```bash
+😄 = Engineer(
+  "Jin Yang",
+  [portfolio_website](https://chenjinyang.vercel.app/),
+  [email](mailto:chenjinyang4192@gmail.com),
+  linkedin(https://www.linkedin.com/in/chen-jin-yang-37baa8202/),
+)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+today = date.today()
+while not today.day == 32:
+  😄.code()
+```
