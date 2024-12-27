@@ -2,7 +2,6 @@ from datetime import date
 
 from app.models import Engineer
 
-```bash
 😄 = Engineer(
   "Jin Yang",
   [portfolio_website](https://chenjinyang.vercel.app/),
@@ -13,4 +12,3 @@ from app.models import Engineer
 today = date.today()
 while not today.day == 32:
   😄.code()
-```
