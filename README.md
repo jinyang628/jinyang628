@@ -11,6 +11,6 @@ from app.models import Engineer
 )
 
 today = date.today()
-while not today.day == 32:
+while today.day != 32:
   😄.code()
 </pre>
